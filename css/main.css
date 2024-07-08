@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: black; 
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 25%;
+    padding: 5px;
+    background-color: black;
+    text-align: center;
+    box-shadow: 0 0 15px 5px rgba(128, 0, 128, 0.7);
+    border-radius: 10px;
+    border-width: 6px; 
+    border-color: rgb(63, 2, 233);
+    border-style: solid;
+}
+.content {
+    width: 100%;
+    padding: 90px;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: xx-large;
+    color: red;
+}
+a {
+    display: block;
+    margin-top: 20px;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:larger;
+}
+
+a:hover {
+    color: orange;
+}

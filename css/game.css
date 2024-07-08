@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: black; 
+}
+
+.score {
+    height: 10%;
+    display: block;
+    color: white;
+    text-align: center; 
+    font-size: xx-large;
+}
+
+.game_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 5px rgba(128, 0, 128, 0.7); 
+    padding: 15px;
+}
+
+
+.gameNote {
+    height: 10%;
+    display: block;
+    color: white;
+    text-align: center; 
+    font-size: x-large;
+}
+
